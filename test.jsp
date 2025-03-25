@@ -7,9 +7,7 @@
     pageEncoding="UTF-8"%>
 <%
 	Connection conn=null;
-// 쿼리문 이용을 위한 인터페이스 
 	Statement stmt = null;
-// 쿼리 결과를 받기 위한 인터페이스 
 	ResultSet rs=null;
 	
 	String url = "jdbc:oracle:thin:@localhost:1521:xe";
